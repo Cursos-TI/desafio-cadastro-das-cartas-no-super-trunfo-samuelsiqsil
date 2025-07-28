@@ -34,7 +34,7 @@ int main() {
     printf("Insira a área!\n");
     scanf("%f", &area);
 
-    printf("Insira o PIB!\n");
+    printf("Insira o PIB em bilhões!\n");
     scanf("%f", &pib);
 
     printf("Insira a quantidade de pontos turísticos!\n");
@@ -42,10 +42,10 @@ int main() {
 
 
 //Entrada da segunda carta
-    printf("Insira o código da carta!\n");
+    printf("Insira o código da segunda carta!\n");
     scanf("%i", &codigo2);
 
-    printf("Insira outra letra do estado!\n(a) DF\n(b) Bahia\n(c) Curitiba\n(d) Rondônia\n(e) Ceará\n(f) Acre\n(g) Sergipe\n (h) Amazonas\n");
+    printf("Insira outra letra do estado!\n(a) DF\n(b) Bahia\n(c) Curitiba\n(d) Rondônia\n(e) Ceará\n(f) Acre\n(g) Sergipe\n(h) Amazonas\n");
     scanf(" %c", &estado2);
 
     printf("Insira outra cidade!\n");
@@ -57,7 +57,7 @@ int main() {
     printf("Insira a área!\n");
     scanf("%f", &area2);
 
-    printf("Insira o PIB!\n");
+    printf("Insira o PIB em bilhões!\n");
     scanf("%f", &pib2);
 
     printf("Insira a quantidade de pontos turísticos!\n");
@@ -70,7 +70,7 @@ int main() {
     printf("Nome da Cidade: %s\n",cidade);
     printf("População: %i\n",populacao);
     printf("Área: %.2f km²\n",area);
-    printf("PIB: %.2f\n", pib);
+    printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de Pontos Turísticos: %i\n\n", n_pontos_turisticos);
 
     printf("Carta %i:\n",codigo2);
